@@ -1,0 +1,105 @@
+body{
+  background-color: #143852;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  background-color: #0a1c29 !important;
+}
+
+.navbar .nav-item a, .navbar-brand{
+  color: #d6e8f5 !important;
+}
+
+.selectstate{
+  color: #ffffff;
+  text-align: center;
+}
+
+.selectstate button{
+  border: 3px solid #ddd;
+  border-radius: 20px;
+  padding: 3px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.notes-form{
+  color: #d6e8f5;
+}
+
+.notes-form input[type="text"]{
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #0a1c29;
+  border-radius: 0;
+  margin: 10px 0;
+  color: #d6e8f5;
+}
+
+.notes-form input[type="text"]::after{
+  background-color: transparent;  
+}
+
+.card{
+  background-color: #d6e8f5;
+  padding: 30px 20px;
+  margin: 30px 10px;
+  color: #143852;
+}
+
+.card p{
+  letter-spacing: 1.3px;
+}
+
+.card .btn-primary{
+  display: inline-block !important;
+}
+
+.page-404{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.page-404 button{
+  border: 3px solid #ddd;
+  border-radius: 20px;
+  padding: 3px 20px;
+  margin-top: 20px;
+}
+
+.page-404 button a{
+  text-decoration: none;
+  color: #000;
+}
+
+.auth-form{
+  color: #d6e8f5;
+  width: 25%;
+  border: 1px solid #0a1c29;
+  border-radius: 5px;
+}
+
+.auth-form form{
+  padding: 20px;
+}
+
+.auth-form input[type="email"], .auth-form input[type="text"], .auth-form input[type="password"]{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #0a1c29;
+  border-radius: 0;
+  margin: 10px 0;
+  color: #d6e8f5;
+}
+
+.auth-form input[type="email"]::after, .auth-form input[type="text"]::after, .auth-form input[type="password"]::after{
+  background-color: transparent;  
+}
